@@ -1,0 +1,21 @@
+{
+  "name": "rsvpknot",
+  "version": "1.0.0",
+  "description": "This is a project to assist with managing reservations for events, with a focus on wedding related events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgoggles/rsvpknot.git"
+  },
+  "keywords": [],
+  "author": "Praneeth Gogineni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgoggles/rsvpknot/issues"
+  },
+  "homepage": "https://github.com/pgoggles/rsvpknot#readme"
+}
