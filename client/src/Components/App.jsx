@@ -1,4 +1,12 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+import Home from './SubComponents/Home.jsx';
+import Account from './SubComponents/Account.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -7,7 +15,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>Landing</div>
+      <Router>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/account" component={Account}></Route>
+      </Router>
     );
   }
 }
