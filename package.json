@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pgoggles/rsvpknot/issues"
   },
-  "homepage": "https://github.com/pgoggles/rsvpknot#readme"
+  "homepage": "https://github.com/pgoggles/rsvpknot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
