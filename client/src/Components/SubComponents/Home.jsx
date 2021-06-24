@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import ImageConstants from '../../Constants/Home/Images';
+import HomeStyles from '../../Styles/Home';
 
 class Home extends React.Component {
   constructor(props) {
@@ -17,6 +18,12 @@ class Home extends React.Component {
                 className="d-block w-100"
                 src={image}
               />
+              <Carousel.Caption>
+                <HomeStyles.Carousel>
+                  <p>Looking to manage reservations?</p>
+                  <HomeStyles.GetStartedButton>Get Started</HomeStyles.GetStartedButton>
+                </HomeStyles.Carousel>
+              </Carousel.Caption>
             </Carousel.Item>
           );
         })}
