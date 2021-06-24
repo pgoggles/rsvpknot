@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import NavBar from './SubComponents/NavBar.jsx';
 import Home from './SubComponents/Home.jsx';
 import Account from './SubComponents/Account.jsx';
 
@@ -16,10 +17,9 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/account" component={Account}></Route>
-        </Switch>
+        <Route path="/" component={NavBar}></Route>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/account" component={Account}></Route>
       </Router>
     );
   }
