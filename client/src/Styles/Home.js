@@ -16,6 +16,11 @@ const GetStartedButton = styled.div `
   height: 1%;
   background-color: ${ColorPalette.pink};
   border-radius: 5px;
+  &:hover {
+    border-color: ${ColorPalette.lightred};
+    color: ${ColorPalette.lightred};
+    cursor: pointer;
+  }
 `;
 
 const styles = {
